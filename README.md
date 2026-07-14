@@ -1,8 +1,8 @@
-# Scholarly Desk
+# Assignment Solution
 
 Premium academic writing platform frontend — a **unique branded rebuild** inspired by common assignment-help UX patterns (routes, calculator, order form, services), not a visual clone of any existing site.
 
-**Brand:** Scholarly Desk · *Clear writing. Confident grades.*
+**Brand:** Assignment Solution · *Clear writing. Confident grades.*
 
 ## Stack
 

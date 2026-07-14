@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import { loginUser } from '../services/fareService';
 
 const AuthContext = createContext(null);
-const STORAGE_KEY = 'scholarly_desk_auth';
+const STORAGE_KEY = 'assignment_solution_auth';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);

@@ -53,7 +53,7 @@ export default function ContactPage() {
     <>
       <Seo
         title="Contact Us"
-        description="Get in touch with the Scholarly Desk academic team for quotes, status updates, and writing support."
+        description="Get in touch with the Assignment Solution academic team for quotes, status updates, and writing support."
         path="/contact-us"
       />
       <PageHero

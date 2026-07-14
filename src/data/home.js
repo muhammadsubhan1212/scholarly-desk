@@ -179,7 +179,7 @@ export const reviews = [
     name: 'Zara N.',
     city: 'Lahore, Pakistan',
     quote:
-      'I needed a rush literature review and expected chaos. Scholarly Desk stayed calm, hit the clock, and the structure actually helped me present.',
+      'I needed a rush literature review and expected chaos. Assignment Solution stayed calm, hit the clock, and the structure actually helped me present.',
   },
   {
     name: 'Hassan I.',
@@ -215,7 +215,7 @@ export const reviews = [
 
 export const faqs = [
   {
-    q: 'What kind of support does Scholarly Desk provide?',
+    q: 'What kind of support does Assignment Solution provide?',
     a: 'We offer academic writing assistance, editing, and structuring help for essays, research papers, theses, and related coursework so students can learn from strong examples.',
   },
   {
@@ -223,7 +223,7 @@ export const faqs = [
     a: 'University and college students who need subject-aware drafting, editing, or presentation support can use our services.',
   },
   {
-    q: 'How is Scholarly Desk different?',
+    q: 'How is Assignment Solution different?',
     a: 'We emphasize writer matching, transparent PKR quotes, milestone updates, and revision-friendly QA rather than anonymous one-shot delivery.',
   },
   {

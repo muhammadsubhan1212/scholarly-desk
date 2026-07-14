@@ -6,13 +6,13 @@ export default function TermsPage() {
     <>
       <Seo
         title="Terms & Conditions"
-        description="Terms governing use of Scholarly Desk academic support services."
+        description="Terms governing use of Assignment Solution academic support services."
         path="/terms-and-conditions"
       />
       <PageHero title="Terms & Conditions" crumbs={[{ label: 'Terms & Conditions' }]} />
       <section className="container-app max-w-3xl space-y-4 py-14 text-sm leading-relaxed text-muted md:text-base">
         <p>
-          By placing an order with Scholarly Desk you confirm that the information you provide is accurate
+          By placing an order with Assignment Solution you confirm that the information you provide is accurate
           and that you will use delivered materials as learning support in line with your institution’s
           academic integrity policies.
         </p>

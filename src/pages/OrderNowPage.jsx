@@ -105,7 +105,7 @@ export default function OrderNowPage() {
     <>
       <Seo
         title="Order Now"
-        description="Place a Scholarly Desk order — share level, subject, deadline, and files for a transparent PKR quote."
+        description="Place an Assignment Solution order — share level, subject, deadline, and files for a transparent PKR quote."
         path="/order-now"
       />
       <PageHero

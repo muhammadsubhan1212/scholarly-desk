@@ -6,7 +6,7 @@ export default function RevisionPolicyPage() {
     <>
       <Seo
         title="Revision Policy"
-        description="Scholarly Desk revision windows and what qualifies as complimentary edits."
+        description="Assignment Solution revision windows and what qualifies as complimentary edits."
         path="/revision-policy"
       />
       <PageHero title="Revision Policy" crumbs={[{ label: 'Revision Policy' }]} />

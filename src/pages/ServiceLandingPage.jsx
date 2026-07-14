@@ -71,7 +71,7 @@ export default function ServiceLandingPage({ slug }) {
       <section className="container-app py-14 md:py-16">
         <SectionHeading
           title={`Built for ${service.title.toLowerCase()}`}
-          body="What students notice first when they work with Scholarly Desk on this brief type."
+          body="What students notice first when they work with Assignment Solution on this brief type."
         />
         <ul className="grid gap-3 md:grid-cols-3">
           {service.benefits.map((b) => (

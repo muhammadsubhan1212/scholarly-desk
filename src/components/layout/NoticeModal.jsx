@@ -52,7 +52,7 @@ export default function NoticeModal() {
               <BookOpen strokeWidth={1.75} className="h-5 w-5" />
             </div>
             <h2 id="notice-title" className="font-display text-xl font-bold tracking-tight text-secondary">
-              Welcome to Scholarly Desk
+              Welcome to Assignment Solution
             </h2>
             <p className="mt-2 text-[14px] leading-relaxed text-muted">
               Share your deadline and subject — we match a writer and keep you updated until delivery.

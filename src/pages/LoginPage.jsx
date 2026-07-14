@@ -40,8 +40,8 @@ export default function LoginPage() {
 
   return (
     <>
-      <Seo title="Login" description="Sign in to your Scholarly Desk account." path="/login" />
-      <PageHero title="Login" subtitle="Access your Scholarly Desk account." crumbs={[{ label: 'Login' }]} />
+      <Seo title="Login" description="Sign in to your Assignment Solution account." path="/login" />
+      <PageHero title="Login" subtitle="Access your Assignment Solution account." crumbs={[{ label: 'Login' }]} />
       <section className="container-app flex justify-center py-12 md:py-16">
         <div className="w-full max-w-[24rem] rounded-2xl border border-border bg-surface p-6 shadow-elevated sm:p-8">
           {isAuthenticated ? (

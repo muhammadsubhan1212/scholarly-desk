@@ -7,18 +7,18 @@ export default function AboutPage() {
     <>
       <Seo
         title="About Us"
-        description="Learn how Scholarly Desk supports students with ethical, subject-matched academic writing and transparent coordination."
+        description="Learn how Assignment Solution supports students with ethical, subject-matched academic writing and transparent coordination."
         path="/about-us"
       />
       <PageHero
-        title="About Scholarly Desk"
+        title="About Assignment Solution"
         subtitle="A modern academic writing studio for students who value clarity, originality, and humane deadlines."
         crumbs={[{ label: 'About Us' }]}
       />
       <section className="container-app grid gap-6 py-12 md:gap-10 md:py-16 lg:grid-cols-2">
         <div className="space-y-4 text-[15px] leading-relaxed text-muted">
           <p>
-            Scholarly Desk grew from a simple observation: students rarely fail for lack of ambition — they
+            Assignment Solution grew from a simple observation: students rarely fail for lack of ambition — they
             fail when workload outpaces time. We built a coordination-first writing desk that matches each
             brief to a specialist, keeps quotes transparent in PKR, and treats revisions as part of the craft.
           </p>

@@ -6,13 +6,13 @@ export default function PrivacyPolicyPage() {
     <>
       <Seo
         title="Privacy Policy"
-        description="How Scholarly Desk collects, uses, and protects student information."
+        description="How Assignment Solution collects, uses, and protects student information."
         path="/privacy-policy"
       />
       <PageHero title="Privacy Policy" crumbs={[{ label: 'Privacy Policy' }]} />
       <section className="container-app prose-like max-w-3xl space-y-4 py-14 text-sm leading-relaxed text-muted md:text-base">
         <p>
-          Scholarly Desk collects only the information needed to process orders and communicate with you —
+          Assignment Solution collects only the information needed to process orders and communicate with you —
           typically your name, email, phone number, and project files.
         </p>
         <ul className="list-disc space-y-2 pl-5">
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
         </ul>
         <p>
           Payment providers may process transaction data under their own policies. Contact{' '}
-          hello@scholarlydesk.com for privacy requests.
+          hello@assignmentsolution.com for privacy requests.
         </p>
       </section>
     </>

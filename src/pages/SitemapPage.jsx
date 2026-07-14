@@ -6,7 +6,7 @@ import { allServices, footerPolicyLinks } from '../data/brand';
 export default function SitemapPage() {
   return (
     <>
-      <Seo title="Sitemap" description="Browse every Scholarly Desk page — company, policies, and services." path="/sitemap" />
+      <Seo title="Sitemap" description="Browse every Assignment Solution page — company, policies, and services." path="/sitemap" />
       <PageHero title="Sitemap" subtitle="Find what you need quickly." crumbs={[{ label: 'Sitemap' }]} />
       <section className="container-app grid gap-10 py-14 md:grid-cols-3">
         <div>

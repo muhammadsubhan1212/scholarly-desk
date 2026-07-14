@@ -3,9 +3,9 @@ import { brand } from '../data/brand';
 
 export default function Seo({
   title,
-  description = 'Scholarly Desk helps students across Pakistan deliver clear, original academic writing with confident deadlines.',
+  description = 'Assignment Solution helps students across Pakistan deliver clear, original academic writing with confident deadlines.',
   path = '/',
-  keywords = 'academic writing, assignment help Pakistan, thesis help, essay writing, scholarly desk',
+  keywords = 'academic writing, assignment help Pakistan, thesis help, essay writing, assignment solution',
 }) {
   const fullTitle = title
     ? `${title} | ${brand.name}`

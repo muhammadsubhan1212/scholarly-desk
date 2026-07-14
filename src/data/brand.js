@@ -1,14 +1,14 @@
 export const brand = {
-  name: 'Scholarly Desk',
+  name: 'Assignment Solution',
   tagline: 'Clear writing. Confident grades.',
-  email: 'hello@scholarlydesk.com',
+  email: 'hello@assignmentsolution.com',
   phone: '+92 300 000 0000',
   phoneTel: '+923000000000',
   whatsapp: '923000000000',
   rating: '4.9',
   ratingLabel: 'Excellent',
   copyrightYears: '2024-2026',
-  domain: 'scholarlydesk.com',
+  domain: 'assignmentsolution.com',
 };
 
 export const navLinks = [

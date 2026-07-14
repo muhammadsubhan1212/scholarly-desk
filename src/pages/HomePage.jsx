@@ -19,7 +19,7 @@ export default function HomePage() {
     <>
       <Seo
         title="Academic Writing Studio for Students in Pakistan"
-        description="Scholarly Desk delivers subject-matched academic writing, transparent PKR quotes, and calm deadline support for university students across Pakistan."
+        description="Assignment Solution delivers subject-matched academic writing, transparent PKR quotes, and calm deadline support for university students across Pakistan."
         path="/"
       />
 
@@ -91,7 +91,7 @@ export default function HomePage() {
             className="mb-0"
             eyebrow="The problem we solve"
             title="Heavy academic seasons, light operational load"
-            body="Campus stacks deadlines, labs, and presentations. Scholarly Desk keeps quality high when your calendar is already full."
+            body="Campus stacks deadlines, labs, and presentations. Assignment Solution keeps quality high when your calendar is already full."
           />
           <div className="grid gap-3 sm:grid-cols-3">
             {[

@@ -93,7 +93,7 @@ export async function handleMockRequest(config) {
         success: true,
         token,
         user: { email: data.email, name: data.email.split('@')[0] },
-        message: 'Welcome back to Scholarly Desk.',
+        message: 'Welcome back to Assignment Solution.',
       },
     };
   }

@@ -9,7 +9,7 @@ export default function ServicesPage() {
     <>
       <Seo
         title="Services"
-        description="Explore Scholarly Desk academic and content writing services — essays, research, theses, SOPs, and more."
+        description="Explore Assignment Solution academic and content writing services — essays, research, theses, SOPs, and more."
         path="/services"
       />
       <PageHero

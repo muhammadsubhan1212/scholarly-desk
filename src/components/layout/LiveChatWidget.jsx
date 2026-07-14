@@ -4,7 +4,7 @@ import { MessageSquare, Send, X } from 'lucide-react';
 import { brand } from '../../data/brand';
 
 const canned = [
-  'Hi — how can Scholarly Desk help with your assignment today?',
+  'Hi — how can Assignment Solution help with your assignment today?',
   'Share your deadline and subject and we will outline next steps.',
   'For urgent work, open Order Now and pick a 24h or 12h deadline.',
 ];
@@ -61,7 +61,7 @@ export default function LiveChatWidget() {
           >
             <div className="flex items-center justify-between bg-secondary px-4 py-3 text-white">
               <div>
-                <p className="text-[13px] font-bold tracking-tight">Scholarly Desk</p>
+                <p className="text-[13px] font-bold tracking-tight">Assignment Solution</p>
                 <p className="text-[11px] text-slate-400">Usually replies in under a minute</p>
               </div>
               <button

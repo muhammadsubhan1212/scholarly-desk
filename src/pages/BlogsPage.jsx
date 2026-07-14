@@ -9,7 +9,7 @@ export default function BlogsPage() {
     <>
       <Seo
         title="Blogs"
-        description="Practical writing advice from Scholarly Desk — research structure, thesis cadence, and study craft."
+        description="Practical writing advice from Assignment Solution — research structure, thesis cadence, and study craft."
         path="/blogs"
       />
       <PageHero

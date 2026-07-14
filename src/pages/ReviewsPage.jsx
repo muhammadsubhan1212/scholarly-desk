@@ -34,7 +34,7 @@ export default function ReviewsPage() {
     <>
       <Seo
         title="Student Reviews"
-        description="Read Scholarly Desk reviews from students across Pakistan on deadlines, quality, and support."
+        description="Read Assignment Solution reviews from students across Pakistan on deadlines, quality, and support."
         path="/reviews"
       />
       <PageHero

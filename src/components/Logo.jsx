@@ -3,7 +3,7 @@ import { cn } from '../utils/helpers';
 
 export default function Logo({ className = '', compact = false, light = false }) {
   return (
-    <Link to="/" className={cn('inline-flex items-center gap-2.5 group', className)} aria-label="Scholarly Desk home">
+    <Link to="/" className={cn('inline-flex items-center gap-2.5 group', className)} aria-label="Assignment Solution home">
       <svg
         width="36"
         height="36"
@@ -28,7 +28,7 @@ export default function Logo({ className = '', compact = false, light = false })
               light ? 'text-white' : 'text-secondary',
             )}
           >
-            Scholarly Desk
+            Assignment Solution
           </span>
           <span className={cn('text-[0.7rem] font-medium', light ? 'text-slate-400' : 'text-muted')}>
             Clear writing. Confident grades.

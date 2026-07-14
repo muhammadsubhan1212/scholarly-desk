@@ -29,7 +29,7 @@ function makeService({
     slug,
     title,
     seoTitle: title,
-    seoDescription: `${hero} Professional ${title.toLowerCase()} from Scholarly Desk with transparent PKR quotes.`,
+    seoDescription: `${hero} Professional ${title.toLowerCase()} from Assignment Solution with transparent PKR quotes.`,
     hero,
     intro,
     benefits,
@@ -44,7 +44,7 @@ export const servicesContent = {
     title: 'Academic Writing',
     hero: 'Structured academic writing that respects your module outcomes',
     intro:
-      'From seminar responses to longer researched papers, Scholarly Desk helps you organise evidence, cite correctly, and write with a steady academic voice.',
+      'From seminar responses to longer researched papers, Assignment Solution helps you organise evidence, cite correctly, and write with a steady academic voice.',
     benefits: [
       'Rubric-aligned outlines before drafting',
       'Reference styles handled with care',
@@ -92,7 +92,7 @@ export const servicesContent = {
     title: 'Coursework Writing',
     hero: 'Coursework support paced to weekly submission cycles',
     intro:
-      'Ongoing modules need steady output. Scholarly Desk supports briefs, reflections, and assignment packs without generic templates.',
+      'Ongoing modules need steady output. Assignment Solution supports briefs, reflections, and assignment packs without generic templates.',
     benefits: [
       'Consistent voice across related tasks',
       'Clarifying questions before drafting',
@@ -212,7 +212,7 @@ export const servicesContent = {
     title: 'Copywriting',
     hero: 'Copy that persuades without sounding like a template',
     intro:
-      'Brand pages, campaigns, and emails need clarity first. Scholarly Desk writers balance creativity with conversion goals.',
+      'Brand pages, campaigns, and emails need clarity first. Assignment Solution writers balance creativity with conversion goals.',
     benefits: [
       'Audience and offer mapping',
       'CTA-focused drafts',
