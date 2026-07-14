@@ -14,8 +14,9 @@ export default function PriceQuoteCalculator({ tone = 'light' }) {
   const [deadlineId, setDeadlineId] = useState(1);
   const [showPayHint, setShowPayHint] = useState(false);
   const { perPage, total, loading } = useFare(levelId, deadlineId, pages);
-  const { formatPrice } = useCurrency();
+  const { formatPrice, currencyCode } = useCurrency();
   const dark = tone === 'dark';
+  const showUsdNote = currencyCode !== 'USD';
 
   return (
     <div
@@ -146,6 +147,12 @@ export default function PriceQuoteCalculator({ tone = 'light' }) {
           </p>
         </div>
       </div>
+
+      {showUsdNote && !loading && (
+        <p className={cn('mt-3 text-[11px] leading-relaxed', dark ? 'text-white/40' : 'text-muted')}>
+          Equivalent to ${perPage.toFixed(2)}/page · ${total.toFixed(2)} total in USD. Payment processed in USD.
+        </p>
+      )}
 
       <Button to="/order-now" className="mt-4 w-full" size="lg" variant={dark ? 'inverted' : 'primary'}>
         Continue to order

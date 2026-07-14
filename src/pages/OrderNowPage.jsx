@@ -20,7 +20,7 @@ import {
 
 export default function OrderNowPage() {
   const toast = useToast();
-  const { formatPrice } = useCurrency();
+  const { formatPrice, currencyCode } = useCurrency();
   const [files, setFiles] = useState([]);
   const [submitting, setSubmitting] = useState(false);
   const {
@@ -310,6 +310,11 @@ export default function OrderNowPage() {
                 {loading ? '—' : formatPrice(total)}
               </span>
             </div>
+            {currencyCode !== 'USD' && !loading && (
+              <p className="mt-2 text-[11px] text-muted">
+                ≈ ${total.toFixed(2)} USD · Payment processed in USD
+              </p>
+            )}
           </div>
         </aside>
       </section>
