@@ -2,7 +2,7 @@ import Button from '../ui/Button';
 
 export default function OrderCta({
   title = 'Ship your next draft without the Sunday panic',
-  body = 'Share the brief once — get a matched writer, clear PKR pricing, and delivery that respects your calendar.',
+  body = 'Share the brief once — get a matched writer, transparent pricing in your currency, and delivery that respects your calendar.',
 }) {
   return (
     <section className="container-app py-14 md:py-16">

@@ -1,7 +1,11 @@
 import { Mail, Phone, Star } from 'lucide-react';
 import { brand, socialLinks } from '../../data/brand';
+import { useCurrency } from '../../context/CurrencyContext';
+import { currencies } from '../../data/currencies';
 
 export default function TopBar() {
+  const { currencyCode, changeCurrency } = useCurrency();
+
   return (
     <div className="hidden border-b border-border bg-surface lg:block">
       <div className="container-app flex h-10 items-center justify-between text-[12px] text-muted">
@@ -48,6 +52,17 @@ export default function TopBar() {
               </a>
             ))}
           </div>
+          <select
+            value={currencyCode}
+            onChange={(e) => changeCurrency(e.target.value)}
+            className="ml-1 cursor-pointer border border-border bg-transparent px-2 py-1 text-[11px] font-semibold text-secondary outline-none hover:border-primary/50 focus:border-primary"
+          >
+            {Object.values(currencies).map((c) => (
+              <option key={c.code} value={c.code}>
+                {c.symbol} {c.code}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
     </div>

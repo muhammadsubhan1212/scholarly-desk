@@ -1,11 +1,11 @@
 import { delay } from '../utils/helpers';
 
 /**
- * MOCK price matrix inspired by typical PK academic writing rates.
- * Base ~PKR 750/page for undergraduate with 15-day deadline.
- * Replace with real /get-fare Laravel endpoint later.
+ * MOCK price matrix — base USD per page.
+ * Base ~$9.99/page for undergraduate with 15-day deadline.
+ * Prices returned in USD; the frontend converts to local currency.
  */
-const BASE_PRICE = 750;
+const BASE_PRICE = 9.99;
 
 const levelMultiplier = {
   1: 1,
@@ -30,7 +30,7 @@ const deadlineMultiplier = {
 function calcPerPage(academicLevelId, deadlineId) {
   const level = levelMultiplier[Number(academicLevelId)] ?? 1;
   const urgency = deadlineMultiplier[Number(deadlineId)] ?? 1;
-  return Math.round(BASE_PRICE * level * urgency);
+  return +(BASE_PRICE * level * urgency).toFixed(2);
 }
 
 export async function handleMockRequest(config) {

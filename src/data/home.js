@@ -73,7 +73,7 @@ export const processSteps = [
   {
     step: '02',
     title: 'Confirm the quote',
-    body: 'We price by level, urgency, and length — transparent totals in PKR before you commit.',
+    body: 'We price by level, urgency, and length — transparent totals in your local currency before you commit.',
   },
   {
     step: '03',
@@ -176,38 +176,38 @@ export const subjects = [
 
 export const reviews = [
   {
-    name: 'Zara N.',
-    city: 'Lahore, Pakistan',
+    name: 'Emma T.',
+    city: 'London, UK',
     quote:
       'I needed a rush literature review and expected chaos. Assignment Solution stayed calm, hit the clock, and the structure actually helped me present.',
   },
   {
-    name: 'Hassan I.',
-    city: 'Karachi, Pakistan',
+    name: 'James W.',
+    city: 'Sydney, Australia',
     quote:
       'My thesis chapter went through two revision cycles. Feedback was specific, and the writer never disappeared mid-thread.',
   },
   {
-    name: 'Mariam S.',
-    city: 'Islamabad, Pakistan',
+    name: 'Sarah M.',
+    city: 'New York, USA',
     quote:
       'Pricing was clear up front. The final essay matched the rubric better than anything I had drafted alone under exam pressure.',
   },
   {
-    name: 'Usmar K.',
-    city: 'Faisalabad, Pakistan',
+    name: 'Oliver H.',
+    city: 'Auckland, New Zealand',
     quote:
       'They explained referencing quirks for Harvard vs APA without making me feel behind. Support felt like a coaching desk.',
   },
   {
-    name: 'Noor A.',
-    city: 'Rawalpindi, Pakistan',
+    name: 'Aisha K.',
+    city: 'Toronto, Canada',
     quote:
       'Case study recommendations were practical, not fluffy. My lecturer commented on the analysis depth — unexpected and welcome.',
   },
   {
-    name: 'Saad R.',
-    city: 'Multan, Pakistan',
+    name: 'Min-Jun P.',
+    city: 'Seoul, South Korea',
     quote:
       'Chat responses were quick even at midnight. I always knew who owned the next step on my order.',
   },
@@ -224,7 +224,7 @@ export const faqs = [
   },
   {
     q: 'How is Assignment Solution different?',
-    a: 'We emphasize writer matching, transparent PKR quotes, milestone updates, and revision-friendly QA rather than anonymous one-shot delivery.',
+    a: 'We emphasize writer matching, transparent quotes in your local currency, milestone updates, and revision-friendly QA rather than anonymous one-shot delivery.',
   },
   {
     q: 'Which subjects do you cover?',

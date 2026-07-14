@@ -20,7 +20,7 @@ export default function AboutPage() {
           <p>
             Assignment Solution grew from a simple observation: students rarely fail for lack of ambition — they
             fail when workload outpaces time. We built a coordination-first writing desk that matches each
-            brief to a specialist, keeps quotes transparent in PKR, and treats revisions as part of the craft.
+            brief to a specialist, keeps quotes transparent in your local currency, and treats revisions as part of the craft.
           </p>
           <p>
             Whether you are shaping an undergraduate essay, polishing a research proposal, or preparing a

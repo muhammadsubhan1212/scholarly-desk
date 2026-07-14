@@ -3,9 +3,9 @@ import { brand } from '../data/brand';
 
 export default function Seo({
   title,
-  description = 'Assignment Solution helps students across Pakistan deliver clear, original academic writing with confident deadlines.',
+  description = 'Assignment Solution helps university students worldwide deliver clear, original academic writing with confident deadlines.',
   path = '/',
-  keywords = 'academic writing, assignment help Pakistan, thesis help, essay writing, assignment solution',
+  keywords = 'academic writing, assignment help, thesis help, essay writing, assignment solution, UK, USA, Australia',
 }) {
   const fullTitle = title
     ? `${title} | ${brand.name}`

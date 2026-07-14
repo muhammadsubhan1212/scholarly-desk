@@ -6,23 +6,23 @@ import { Quote } from 'lucide-react';
 
 const extraReviews = [
   {
-    name: 'Areeba T.',
-    city: 'Peshawar, Pakistan',
+    name: 'Charlotte D.',
+    city: 'Melbourne, Australia',
     quote: 'Presentation slides finally looked like a story instead of a dump of bullets. On-time and sharp.',
   },
   {
-    name: 'Yahya M.',
-    city: 'Gujranwala, Pakistan',
+    name: 'Liam R.',
+    city: 'Manchester, UK',
     quote: 'Research proposal feedback from my supervisor was mostly praise for the literature map. Worth it.',
   },
   {
-    name: 'Fatima Z.',
-    city: 'Hyderabad, Pakistan',
+    name: 'Jessica P.',
+    city: 'Wellington, New Zealand',
     quote: 'I appreciated that the writer asked clarifying questions before drafting. Felt collaborative.',
   },
   {
-    name: 'Imran S.',
-    city: 'Sialkot, Pakistan',
+    name: 'David K.',
+    city: 'Chicago, USA',
     quote: 'Revision turnaround was faster than expected. The revised theory section finally clicked.',
   },
 ];
@@ -34,7 +34,7 @@ export default function ReviewsPage() {
     <>
       <Seo
         title="Student Reviews"
-        description="Read Assignment Solution reviews from students across Pakistan on deadlines, quality, and support."
+        description="Read Assignment Solution reviews from students worldwide on deadlines, quality, and support."
         path="/reviews"
       />
       <PageHero

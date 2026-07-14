@@ -18,8 +18,8 @@ export default function HomePage() {
   return (
     <>
       <Seo
-        title="Academic Writing Studio for Students in Pakistan"
-        description="Assignment Solution delivers subject-matched academic writing, transparent PKR quotes, and calm deadline support for university students across Pakistan."
+        title="Academic Writing Studio for University Students"
+        description="Assignment Solution delivers subject-matched academic writing, transparent quotes in your local currency, and calm deadline support for students worldwide."
         path="/"
       />
 
@@ -29,7 +29,7 @@ export default function HomePage() {
             <div className="flex h-full flex-col justify-between px-5 py-12 sm:px-8 md:px-10 lg:py-16 xl:pl-[max(2rem,calc((100vw-72rem)/2+2rem))]">
               <div>
                 <p className="mb-6 text-[12px] font-semibold uppercase tracking-[0.14em] text-white/45">
-                  Academic writing studio · Pakistan
+                  Academic writing studio · Worldwide
                 </p>
                 <h1 className="max-w-[11ch] font-display text-[2.6rem] font-bold leading-[1.02] tracking-[-0.045em] text-white sm:text-[3.25rem] lg:text-[3.5rem]">
                   Deadlines stay firm.
@@ -37,7 +37,7 @@ export default function HomePage() {
                 </h1>
                 <p className="mt-6 max-w-[34rem] text-[15px] leading-relaxed text-white/65">
                   Pair with a subject-aware writer for essays, research papers, theses, and career documents.
-                  Transparent PKR quotes. Coordinators who answer when the brief changes.
+                  Transparent quotes in your currency. Coordinators who answer when the brief changes.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Button to="/order-now" size="lg" variant="inverted">
@@ -150,7 +150,7 @@ export default function HomePage() {
           </div>
           <div className="space-y-4 text-[14px] leading-relaxed text-slate-300">
             <p>
-              Affordable PKR rates without soft quality. Writers research with method, coordinators answer
+              Affordable rates without soft quality. Writers research with method, coordinators answer
               after midnight, and editors catch structure before you ever see a draft.
             </p>
             <p>
@@ -194,7 +194,7 @@ export default function HomePage() {
         <div className="container-app">
           <SectionHeading
             title="Subjects we cover every week"
-            body="Writers across the domains taught at Pakistani universities and international programs."
+            body="Writers across the domains taught at top universities and international programs."
             center
           />
           <SubjectsStrip />

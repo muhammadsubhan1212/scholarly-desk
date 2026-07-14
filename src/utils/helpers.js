@@ -1,6 +1,6 @@
 export function formatPrice(amount) {
   const value = Number(amount) || 0;
-  return `PKR ${value.toLocaleString('en-PK')}`;
+  return `$${value.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 })}`;
 }
 
 export function getInitials(name = '') {

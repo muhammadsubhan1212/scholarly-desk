@@ -6,8 +6,8 @@ import Button from '../components/ui/Button';
 import { Field, Input, Select, Textarea } from '../components/ui/Field';
 import { useFare } from '../hooks/useFare';
 import { useToast } from '../context/ToastContext';
+import { useCurrency } from '../context/CurrencyContext';
 import { submitOrder } from '../services/fareService';
-import { formatPrice } from '../utils/helpers';
 import {
   academicLevels,
   countryList,
@@ -20,6 +20,7 @@ import {
 
 export default function OrderNowPage() {
   const toast = useToast();
+  const { formatPrice } = useCurrency();
   const [files, setFiles] = useState([]);
   const [submitting, setSubmitting] = useState(false);
   const {
@@ -41,7 +42,7 @@ export default function OrderNowPage() {
       detail: '',
       name: '',
       email: '',
-      country: 'Pakistan',
+      country: 'United Kingdom',
       contact: '',
     },
   });
@@ -105,7 +106,7 @@ export default function OrderNowPage() {
     <>
       <Seo
         title="Order Now"
-        description="Place an Assignment Solution order — share level, subject, deadline, and files for a transparent PKR quote."
+        description="Place an Assignment Solution order — share level, subject, deadline, and files for an instant quote in your local currency."
         path="/order-now"
       />
       <PageHero

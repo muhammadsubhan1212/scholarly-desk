@@ -3,8 +3,8 @@ import { Info } from 'lucide-react';
 import Button from '../ui/Button';
 import { Field, Select } from '../ui/Field';
 import { useFare } from '../../hooks/useFare';
+import { useCurrency } from '../../context/CurrencyContext';
 import { academicLevels, deadlines, pageOptions, paperTypes } from '../../utils/orderOptions';
-import { formatPrice } from '../../utils/helpers';
 import { cn } from '../../utils/helpers';
 
 export default function PriceQuoteCalculator({ tone = 'light' }) {
@@ -14,6 +14,7 @@ export default function PriceQuoteCalculator({ tone = 'light' }) {
   const [deadlineId, setDeadlineId] = useState(1);
   const [showPayHint, setShowPayHint] = useState(false);
   const { perPage, total, loading } = useFare(levelId, deadlineId, pages);
+  const { formatPrice } = useCurrency();
   const dark = tone === 'dark';
 
   return (

@@ -5,7 +5,7 @@ const baseFaqs = (label) => [
   },
   {
     q: 'How do I place an order?',
-    a: 'Open Order Now, share instructions and files, confirm the PKR quote, and our desk assigns a matched writer.',
+    a: 'Open Order Now, share instructions and files, confirm the quote in your currency, and our desk assigns a matched writer.',
   },
   {
     q: 'Do you offer free revisions?',
@@ -29,7 +29,7 @@ function makeService({
     slug,
     title,
     seoTitle: title,
-    seoDescription: `${hero} Professional ${title.toLowerCase()} from Assignment Solution with transparent PKR quotes.`,
+    seoDescription: `${hero} Professional ${title.toLowerCase()} from Assignment Solution with transparent pricing in your currency.`,
     hero,
     intro,
     benefits,
